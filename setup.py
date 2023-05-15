@@ -20,7 +20,7 @@ setuptools.setup(
 
     long_description_content_type="text/markdown",    
 
-    url="https://github.com/yourusername/tkairo",    
+    url="https://github.com/Afrinteli/Tkairo_package",    
 
     packages=setuptools.find_packages(),  
 
