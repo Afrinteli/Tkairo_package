@@ -1,0 +1,29 @@
+from tkairo import *
+
+# Create root window
+
+root = Tk()
+
+# Create widgets  
+
+button(root, "Click", width=10).pack()
+
+entry(root).pack()  
+
+label(root, "Name:").pack(anchor="w")
+
+# Center the window 
+
+center(root)
+
+# Set the window title
+
+set_title(root, "Example 1")   
+
+# Set the window icon
+
+set_icon(root, "icon.ico")
+
+# Start the event loop  
+
+root.mainloop()
